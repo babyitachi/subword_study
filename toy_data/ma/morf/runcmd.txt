@@ -1,0 +1,2 @@
+morfessor -t ma.sent.1m.5.word 
+ morfessor -t ma.sent.1m.5.word -o ./ma.sent.1m.5.morf -s ./ma.sent.1m.5.morf.model
