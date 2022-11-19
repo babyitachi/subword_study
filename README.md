@@ -40,9 +40,9 @@ For *sms*, we can also embed the concatenation of the subword and its morphortac
 
 ## Prerequisites
 # Install python packages and segmentation method packages
-- Make sure you are in *subword_study* folder 
-- Run ./prereq.sh file 
-	- if file is not executing, run *chmod +x prereq.sh and run above command again (Repeat this step for all the .sh files)
+- Make sure you are in **subword_study** folder 
+- Run **./prereq.sh** file 
+	- if file is not executing, run **chmod +x prereq.sh** and run above command again (Repeat this step for all the .sh files)
 - After this command the following files for Marathi should be generate in the 'toy_data/ma' folder:
 	- ma.sent.1m
 	- ma.sent.1m.5.word
@@ -52,12 +52,12 @@ For *sms*, we can also embed the concatenation of the subword and its morphortac
 
 ## running training different config
 - cd code
-- ./run.sh ma *encodingType* *congig* *learningRate* *batch_size*
-- the respective trained model will be generated in the *./code/outfiles/* folder
+- ./run.sh ma **encodingType** **config** **learningRate** **batch_size**
+- the respective trained model will be generated in the **./code/outfiles/** folder
 
 ## inferencing and plotting the results
 - cd eval
-- run *./eval.sh* (it will take a while to execute)
+- run **./eval.sh** (it will take a while to execute)
 - result plot image and html should be generated in the present working directory 
  
 

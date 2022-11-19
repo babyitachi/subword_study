@@ -1,8 +1,6 @@
 import pandas as pd
 import torch, numpy as np
-from scipy import stats
 import sys
-import sklearn
 from sklearn.metrics.pairwise import cosine_similarity
 
 def getArgs():
@@ -35,9 +33,6 @@ def getEmbb(word):
 def getSims(w1,w2):
     v1=getEmbb(w1)
     v2=getEmbb(w2)
-    # sp =stats.spearmanr(v1, v2)
-    # cor=sp.correlation
-    # return 5*(1+cor)
     sp =cosine_similarity([v1], [v2])
     return (1+sp[0][0])*5
 

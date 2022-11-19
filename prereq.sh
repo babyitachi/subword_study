@@ -1,6 +1,11 @@
+pip install gdown
+pip install plotly
+pip install pandas
+pip install numpy
+pip install scipy
+pip install scikit-learn
 pip install morfessor
 pip install bpemb
-pip install gdown 
 
 gdown --id 1UHbNavBR7ODDBwn5TytKurFzSxP_W6Ly -O ./toy_data/ma/
 
